@@ -1,0 +1,16 @@
+<suite name="testSuite" >
+	<test name="testChrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="node"	value="localhost"></parameter>
+		<packages>
+			<package name="script"/>
+		</packages>
+	</test>
+	<test name="testFirefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="node"	value="localhost"></parameter>
+		<packages>
+			<package name="script"/>
+		</packages>
+	</test>
+</suite>
