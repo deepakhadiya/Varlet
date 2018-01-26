@@ -9,7 +9,7 @@ import generic.BaseTest;
 
 public class VerifyLoginPage extends BaseTest{
 	
-	@Test
+	@Test(priority=1)
 	public void testLoginPage()
 	{
 		Reporter.log("LoginPage displayed",true);
