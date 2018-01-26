@@ -15,5 +15,11 @@ public class VerifyLoginPage extends BaseTest{
 		Reporter.log("LoginPage displayed",true);
 		Assert.fail();
 	}
+	
+	@Test
+	public void test2()
+	{
+		Reporter.log("test added",true);
+	}
 
 }
